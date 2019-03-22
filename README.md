@@ -35,8 +35,8 @@ Edit this document to include your answers after each question. Make sure to lea
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
     Semantic HTML reffers to the tags before lines of code that give clarity to the reader.
-    You can use tags like <header>,<section class="name">, or <footer> to help the reader distinguish 
-    between your code. If you use <div> with no name for every line reading and editing your code
+    You can use tags like (header),(section class="name"), or (footer) to help the reader distinguish 
+    between your code. If you use (div) with no name for every line reading and editing your code
     would be impossible
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
