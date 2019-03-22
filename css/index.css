@@ -68,13 +68,18 @@ p {
 .content{
     display: flex;
     justify-content:space-around;
-    
+    /* border: 2px solid red; */
+    padding-bottom: 50px;
 
 }
 .question{
     text-align: center;
     margin: 40px 0;
 
+}
+.thanks{
+    text-align: center;
+    margin: 40px 0;
 }
 
 .contact{
