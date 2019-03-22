@@ -85,6 +85,58 @@ header nav a{
     color: black;
 }
 
+.a-about{
+    padding: 0 15px 15px 15px;
+    border-bottom: 1px dashed black;
+}
+
+.a-top-content{
+    display: flex;
+    margin:15px;
+}
+
+.a-bot-content{
+    display: flex;
+    margin:15px;
+}
+.strategy{
+    margin-top: 15px;
+    margin-right: 10px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 15px;
+}
+.hww{
+    margin-top: 15px;
+    border-bottom: 1px dashed black;
+    margin-left: 10px;
+    padding-bottom: 15px;
+}
+.pww{
+    margin-right: 10px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 15px;
+}
+.colab{
+    border-bottom: 1px dashed black;
+    margin-left: 10px;
+    padding-bottom: 15px;
+}
+.lwt{
+    padding: 20px 15px 15px 15px;
+}
+
+h3{
+    margin-top: 15px;
+}
+
+button {
+    margin:10px 0;
+    border: 2px solid black;
+    background: white;
+    padding: 7px 17px;
+    border-radius: 6px;  
+
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
