@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -66,11 +65,105 @@ p {
     line-height: 1.4;
 }
 
+.content{
+    display: flex;
+    justify-content:space-around;
+    /* border: 2px solid red; */
+    padding-bottom: 50px;
+
+}
+.question{
+    text-align: center;
+    margin: 40px 0;
+
+}
+.thanks{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.contact{
+    padding: 30px 0;
+    border-top: 1px dashed black;
+    margin: 50px 0 0 0;
+}
+
+.flair {
+    margin:40px 0;
+    
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 40px;
+}
+header .road{
+    margin-bottom: 25px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.a-about{
+    padding: 0 15px 15px 15px;
+    border-bottom: 1px dashed black;
+}
+
+.a-top-content{
+    display: flex;
+    margin:15px;
+}
+
+.a-bot-content{
+    display: flex;
+    margin:15px;
+}
+.strategy{
+    margin-top: 15px;
+    margin-right: 10px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 15px;
+}
+.hww{
+    margin-top: 15px;
+    border-bottom: 1px dashed black;
+    margin-left: 10px;
+    padding-bottom: 15px;
+}
+.pww{
+    margin-right: 10px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 15px;
+}
+.colab{
+    border-bottom: 1px dashed black;
+    margin-left: 10px;
+    padding-bottom: 15px;
+}
+.lwt{
+    padding: 20px 15px 15px 15px;
+}
+
+h3{
+    margin-top: 15px;
+}
+
+button {
+    margin:10px 0;
+    border: 2px solid black;
+    background: white;
+    padding: 7px 17px;
+    border-radius: 6px;  
+
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +197,45 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
-    margin: 20px 2.5%;
     color: white;
+    /* background: black; */
+    margin: 20px 2.5%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
+.middle-content .boxes .box:first-child {
+    background: teal;
+  }
+
+.middle-content .boxes .box:last-child {
+    background: dodgerblue;
+  }
+.middle-content .boxes .box:nth-child(2){
+      background: gold;
+  }
+.middle-content .boxes .box:nth-child(3){
+    background: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background: coral;
+}
+.middle-content .boxes .box:nth-child(5){
+    background: crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+    background: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+    background: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8){
+    background: hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+    background: indigo;
+}
+
 
 .bottom-content {
     display: flex;
